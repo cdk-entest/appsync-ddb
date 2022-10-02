@@ -7,7 +7,7 @@ date: 01/10/2022
 
 ## Introduction
 
-[GitHub](https://github.com/cdk-entest/appsync-ddb) shows a basic example how to create and use an appsync api with a dynamodb table behind.
+[GitHub](https://github.com/cdk-entest/appsync-ddb) shows a basic example how to create and use an appsync api with a dynamodb table behind. [Amplify GraphQL](https://github.com/cdk-entest/appsync-ddb) for faster development and [Amplify Sandbox](https://sandbox.amplifyapp.com/)
 
 - create appsync app, api key and schema (frontend)
 - create datasource, resolvers (backend)
