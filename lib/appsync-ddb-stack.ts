@@ -14,6 +14,7 @@ export class AppsyncDDBStack extends Stack {
 
     const tableName = "ItemsTable";
 
+    // =========================Frontend=========================
     // appsync app
     const itemsGraphQLApi = new aws_appsync.CfnGraphQLApi(this, "ItemsApi", {
       name: "items-api",
@@ -41,6 +42,7 @@ export class AppsyncDDBStack extends Stack {
       `,
     });
 
+    // =========================Backend=========================
     // ddb table
     const itemsTable = new aws_dynamodb.Table(this, "ItemsTable", {
       tableName: tableName,
