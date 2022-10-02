@@ -2,6 +2,13 @@
 !jest.config.js
 *.d.ts
 node_modules
+*.swp
+*.swo
+test 
+.npmignore
+.git
+package-lock.json 
+jest.config.js
 
 # CDK asset staging directory
 .cdk.staging
