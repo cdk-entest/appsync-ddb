@@ -119,3 +119,7 @@ dependen on
 getOneResolver.addDependsOn(apiSchema);
 getOneResolver.addDependsOn(dataSource);
 ```
+
+## Reference
+
+- [DynamoDB resolver](https://docs.aws.amazon.com/appsync/latest/devguide/tutorial-dynamodb-resolvers.html)
