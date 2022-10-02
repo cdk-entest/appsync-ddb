@@ -7,7 +7,12 @@ date: 01/10/2022
 
 ## Introduction
 
-## FrontEnd
+[GitHub](https://github.com/cdk-entest/appsync-ddb) shows a basic example how to create and use an appsync api with a dynamodb table behind.
+
+- create appsync app, api key and schema (frontend)
+- create datasource, resolvers (backend)
+
+## Frontend
 
 I mean what web/app developers see and use appsync api. What they see is data models and how to call the api
 
